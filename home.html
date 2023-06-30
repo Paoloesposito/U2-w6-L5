@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              class="logo"
+              src="assets/netflix_logo.png"
+              alt="Netflix Logo"
+            />
+          </a>
+          <!-- Navbar content -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav flex-column flex-sm-row">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TV Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My List</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto flex-column flex-md-row">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><img class="profilo" src="assets/kids_icon.png" alt="Kids"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html"
+                  ><img
+                    class="profilo"
+                    src="assets/avatar.png"
+                    alt="Profile Image"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <div class="text-main d-flex justify-content-between">
+        <div
+          class="firs-container px-4 d-flex justify-content-start align-items-center"
+        >
+          <div class="me-5">
+            <h1>TV Shows</h1>
+          </div>
+
+          <div class="dropdown">
+            <a
+              class="btn btn-dark dropdown-toggle text-white border border-white"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Genres
+            </a>
+
+            <ul class="dropdown-menu bg-body-dark bg-dark border border-white">
+              <li>
+                <a class="dropdown-item bg-dark text-white" href="#">Action</a>
+              </li>
+              <li>
+                <a class="dropdown-item bg-dark text-white" href="#">Horror</a>
+              </li>
+              <li>
+                <a class="dropdown-item bg-dark text-white" href="#">Pierino</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="second-container px-4 d-flex justify-content-end align-items-center d-none d-md-block"
+        >
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-dark border border-white">
+              <i class="bi bi-text-left"></i>
+            </button>
+            <button type="button" class="btn btn-dark border border-white">
+              <i class="bi bi-grid-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="container-fluid">
+        <div class="container-schede">
+          <div>
+            <h4>Trending Now</h4>
+          </div>
+
+          <div id="carosello1" class="carousel slide" data-bs-ride="carousel">
+            <div>
+              <div>
+                <div class="row">
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media0.webp"
+                      class="d-block w-100"
+                      alt="Image 1"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media1.jpg"
+                      class="d-block w-100"
+                      alt="Image 2"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media2.webp"
+                      class="d-block w-100"
+                      alt="Image 3"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media3.webp"
+                      class="d-block w-100"
+                      alt="Image 4"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media4.jpg"
+                      class="d-block w-100"
+                      alt="Image 5"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media5.webp"
+                      class="d-block w-100"
+                      alt="Image 6"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-schede">
+          <div>
+            <h4>Watch it again</h4>
+          </div>
+          <div id="carosello2" class="carousel slide" data-bs-ride="carousel">
+            <div>
+              <div>
+                <div class="row">
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media6.jpg"
+                      class="d-block w-100"
+                      alt="Image 7"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media7.webp"
+                      class="d-block w-100"
+                      alt="Image 8"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media8.webp"
+                      class="d-block w-100"
+                      alt="Image 9"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media9.jpg"
+                      class="d-block w-100"
+                      alt="Image 10"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media10.jpg"
+                      class="d-block w-100"
+                      alt="Image 11"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media11.jpg"
+                      class="d-block w-100"
+                      alt="Image 12"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-schede">
+          <div>
+            <h4>New Releases</h4>
+          </div>
+          <div id="carosello3">
+            <div>
+              <div>
+                <div class="row">
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media12.jpg"
+                      class="d-block w-100"
+                      alt="Image 13"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media13.jpg"
+                      class="d-block w-100"
+                      alt="Image 14"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media14.webp"
+                      class="d-block w-100"
+                      alt="Image 15"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media15.jpg"
+                      class="d-block w-100"
+                      alt="Image 16"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media16.webp"
+                      class="d-block w-100"
+                      alt="Image 17"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <img
+                      src="assets/media/media17.jpg"
+                      class="d-block w-100"
+                      alt="Image 18"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="social-icons text-start">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <ul class="list-unstyled text-start">
+              <li><p>Audio and Subtitles</p></li>
+              <li><p>Media Center</p></li>
+              <li><p>Privacy</p></li>
+              <li><p>Contact us</p></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <ul class="list-unstyled text-start">
+              <li><p>Audio description</p></li>
+              <li><p>Invest releletion</p></li>
+              <li><p>Legal Notice</p></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <ul class="list-unstyled text-start">
+              <li><p>Help center</p></li>
+              <li><p>Notice</p></li>
+              <li><p>Cookie Preference</p></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <ul class="list-unstyled text-start">
+              <li><p>Gift Card</p></li>
+              <li><p>Terms of Use</p></li>
+              <li><p>Corporate Information</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-start">
+            <button id="btn-service" class="btn btn-primary">
+              Service Code
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-start">
+            <p>1997/2019 Netflix, Inc</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

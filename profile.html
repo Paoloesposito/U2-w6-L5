@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="assets/netflix_logo.png" alt="Netflix Logo" />
+        </a>
+      </div>
+    </nav>
+    <main class="m-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h1>Edit Profile</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-2 border-top">
+            <img style="height: 100px" src="assets/avatar.png" alt="" />
+          </div>
+          <div class="col-sm-12 col-md-8 col-lg-7 border-top">
+            <div class="pb-4">
+              <div class="gray">Strive student</div>
+              <div class="px-4">
+                <p class="mb-4 px-5 text-bg-secondary text-start">Paolino</p>
+                <span>Language:</span>
+                <div class="dropdown">
+                  <button
+                    class="bg-dark nav-link dropdown-toggle border border-light w-100 p-1"
+                    type="button"
+                    id="languageDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    English
+                  </button>
+                  <ul
+                    class="dropdown-menu dropdown-menu-dark"
+                    aria-labelledby="languageDropdown"
+                  >
+                    <li><a class="dropdown-item" href="#">Italiano</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="border-top">
+              <p>Maturity Setting:</p>
+              <p>ALL MATURITY RATING</p>
+              <p>Show titles of all maturity ratings for this profile</p>
+              <button class="btn btn-profile">Edit</button>
+            </div>
+            <div class="border-top">
+              <div class="pb-2">
+                <h5>Autoplay controls</h5>
+                <div class="form-check mb-3">
+                  <input
+                    class="form-check-input bg-dark fs-2 border-black"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label mt-2" for="flexCheckDefault">
+                    Autoplay next episode in a series on all devices.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input bg-dark fs-2 border-black"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label mt-2" for="flexCheckChecked">
+                    Autoplay previews while browsing on all devices.
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer id="footer-profile" class="row">
+          <div
+            class="col-sm-12 col-md-6 col-lg-5 offset-md-3 offset-lg-4 border-top"
+          >
+            <button class="btn btn-profile">Save</button>
+            <button class="btn btn-profile">Cancel</button>
+            <button class="btn btn-profile">Delete Profile</button>
+          </div>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
